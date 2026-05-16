@@ -8,14 +8,18 @@ body:
       label: Agent
       description: Which model should handle this task?
       options:
-        - Auto (cheapest)
-        - Kimi K2
-        - DeepSeek R1
-        - DeepSeek Chat
-        - Gemini Flash
-        - Gemini Pro
-        - Sonnet
-        - Opus
+        - Gemini 3.1 Flash Lite
+        - Gemini 3.1 Flash Lite (Preview)
+        - Gemini Flash (latest)
+        - Gemini Pro (latest)
+        - Kimi K2.6
+        - Qwen3.6 Flash
+        - Qwen3.6 27B
+        - Qwen3.6 35B A3B
+        - Qwen3.6 Plus
+        - Qwen3.6 Max Preview
+        - DeepSeek V4 Flash
+        - DeepSeek V4 Pro
     validations:
       required: true
 
